@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Sheet Video Uploader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<h1>Privacy Policy</h1>
+<p class="ja">プライバシーポリシー</p>
+<p>Last updated / 最終更新: September 30, 2026</p>
+
+<h2>1. YouTube API Services</h2>
+<p>Sheet Video Uploader uses YouTube API Services. By using this tool, you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p class="ja">本ツールは YouTube API サービスを使用しています。本ツールの利用により、YouTube 利用規約に同意したものとみなされます。Google によるデータの取り扱いは Google プライバシーポリシーをご確認ください。</p>
+
+<h2>2. Information we access / アクセスする情報</h2>
+<ul>
+<li><strong>YouTube:</strong> the authorized channel's ID and name (to confirm the upload destination), and permission to upload videos and set thumbnails on that channel.<br><span class="ja">YouTube：投稿先を確認するためのチャンネル ID と名前。動画とサムネイルをアップロードする権限。</span></li>
+<li><strong>Google Sheets:</strong> read and write access to the one spreadsheet configured by the user, to read upload requests and write back results.<br><span class="ja">Google スプレッドシート：利用者が設定した1つのスプレッドシートの読み書き（投稿内容の読み取りと結果の書き戻し）。</span></li>
+<li><strong>Google Drive:</strong> read-only access to the video and image files linked in that spreadsheet.<br><span class="ja">Google ドライブ：シートにリンクされた動画・画像ファイルの読み取りのみ。</span></li>
+</ul>
+
+<h2>3. How we use and store information / 利用と保存</h2>
+<ul>
+<li>Information is used only to upload the user's videos to the user's own YouTube channel, with the title, description, hashtags, privacy setting and publish time exactly as the user entered them.<br><span class="ja">情報は、利用者が入力した内容のとおりに、利用者自身のチャンネルへ動画をアップロードする目的にのみ使用します。</span></li>
+<li>The OAuth token is stored only on the user's own computer. It is not sent anywhere other than Google.<br><span class="ja">認証トークンは利用者自身のパソコンにのみ保存し、Google 以外には送信しません。</span></li>
+<li>Video and image files are downloaded to a temporary folder on the user's computer and deleted immediately after each upload.<br><span class="ja">動画・画像ファイルは一時フォルダに保存し、アップロード後すぐに削除します。</span></li>
+<li>The only YouTube data written anywhere is the URL of each uploaded video, written to the user's own spreadsheet. The user can edit or delete it at any time.<br><span class="ja">保存される YouTube のデータは、利用者自身のスプレッドシートに書き込まれる動画 URL のみで、利用者はいつでも編集・削除できます。</span></li>
+<li>We do not operate any server that collects user data, and we do not share, sell or transfer any information to third parties.<br><span class="ja">利用者データを収集するサーバーは運用しておらず、第三者への提供・販売・移転は行いません。</span></li>
+</ul>
+
+<h2>4. Cookies and third-party content / Cookie と第三者コンテンツ</h2>
+<p>This tool and this website do not use cookies, advertising, or analytics, and do not allow third parties to serve content or collect information from users.</p>
+<p class="ja">本ツールと本サイトは Cookie・広告・アクセス解析を使用せず、第三者によるコンテンツ配信や情報収集も行いません。</p>
+
+<h2>5. Revoking access and deleting data / アクセスの取り消しとデータの削除</h2>
+<p>You can revoke this tool's access at any time in either of these ways:</p>
+<ul>
+<li>Run <code>python3 uploader.py --revoke</code>. This revokes the authorization with Google and immediately deletes the stored token and temporary files.<br><span class="ja"><code>--revoke</code> を実行すると、Google 側の許可を取り消し、保存したトークンと一時ファイルを直ちに削除します。</span></li>
+<li>Remove "Sheet Video Uploader" from the <a href="https://myaccount.google.com/permissions">Google security settings page</a>.<br><span class="ja">Google アカウントのセキュリティ設定ページから削除することもできます。</span></li>
+</ul>
+<p>After revocation, any remaining stored data is deleted within 7 days.</p>
+<p class="ja">取り消し後、残っている保存データは7日以内に削除します。</p>
+
+<h2>6. Contact / お問い合わせ</h2>
+<p>Yuta Hosoi — <a href="mailto:hyouta1102@gmail.com">hyouta1102@gmail.com</a></p>
+<footer>Operator / 運営者: Yuta Hosoi · Contact / 連絡先: <a href="mailto:hyouta1102@gmail.com">hyouta1102@gmail.com</a></footer>
+</main>
+</body>
+</html>

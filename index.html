@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sheet Video Uploader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<h1>Sheet Video Uploader</h1>
+<p>Sheet Video Uploader is an internal tool that uploads short vertical videos to the operator's own YouTube channel. Videos and their titles, descriptions and hashtags are managed in a Google Sheets spreadsheet owned by the operator.</p>
+<p class="ja">Sheet Video Uploader は、運営者自身の YouTube チャンネルに縦型ショート動画をアップロードする社内用ツールです。動画とタイトル・説明文・ハッシュタグは、運営者が所有する Google スプレッドシートで管理します。</p>
+
+<h2>How it works / 仕組み</h2>
+<ol>
+<li>The operator uploads a video file to their own Google Drive.<br><span class="ja">運営者が自分の Google ドライブに動画を置く。</span></li>
+<li>The operator adds a row to the spreadsheet (video link, title, description, hashtags, privacy setting, optional publish time) and sets the status to "投稿待ち" (ready).<br><span class="ja">スプレッドシートに1行登録し、ステータスを「投稿待ち」にする。</span></li>
+<li>The tool, running on the operator's computer, uploads the video exactly as entered using the YouTube Data API, and writes the result (video URL or error) back to the row.<br><span class="ja">運営者のパソコン上で動くツールが、入力どおりの内容で YouTube Data API を使ってアップロードし、結果をシートに書き戻す。</span></li>
+</ol>
+
+<h2>Availability / 公開範囲</h2>
+<p>This tool is not publicly available. It is used only by the operator, with the operator's own Google account and YouTube channel.</p>
+<p class="ja">本ツールは一般公開していません。運営者本人が、自分の Google アカウントと YouTube チャンネルでのみ使用します。</p>
+
+<p>By using this tool, you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. See our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Service</a>.</p>
+<footer>Operator / 運営者: Yuta Hosoi · Contact / 連絡先: <a href="mailto:hyouta1102@gmail.com">hyouta1102@gmail.com</a></footer>
+</main>
+</body>
+</html>
